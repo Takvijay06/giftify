@@ -1,0 +1,14 @@
+# Dependency directories
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+
+# Build output
+build/
+dist/
+*.log
+*.pid
+.DS_Store
