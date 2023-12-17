@@ -2,7 +2,9 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div>Gift smile to your love ones</div>
+    <div className='app'>
+      <p className='para'>This is my area</p>
+    </div>
   )
 }
 
