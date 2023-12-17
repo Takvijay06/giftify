@@ -1,11 +1,8 @@
-import React from 'react'
+import React from "react";
+import AppWrapper from "./src/container/appWrapper.tsx";
 
 const App = () => {
-  return (
-    <div className='app'>
-      <p className='para'>This is my area</p>
-    </div>
-  )
-}
+  return <AppWrapper />; //children={<p className="para">This is my area</p>} />;
+};
 
 export default App;
